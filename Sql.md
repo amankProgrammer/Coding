@@ -24,3 +24,8 @@ values(1,'The Namesake','Jhumpa','Lahri',2003,32,291),
 (14,'Cannery Row','John','Steinbeck',1945,95,181),
 (15,'Oblivion: Stories','Foster','Wallace',2004,172,329),
 (16,'Consider the Lobster','Foster','Wallace',2005,92,143);
+
+
+
+![alt text](<MySQL 8.0 Command Line Client 23-09-2024 01_25_35.png>) 
+![alt text](<MySQL 8.0 Command Line Client 23-09-2024 01_24_45.png>)
