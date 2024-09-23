@@ -6,6 +6,11 @@ book_id, title, author_first_name, author_last_name, release_year, stock_quantit
 => create books_shop_db;
 => create table books(book_id int(10),title varchar(50), author_first_name varchar(50), author_last_name varchar(50), release_year int(4), stock_quantity int(4), pages int(4));
 
+![alt text](<MySQL 8.0 Command Line Client 23-09-2024 01_25_35.png>) 
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+2. Insert Values in the table books
 
 => insert into books 
 values(1,'The Namesake','Jhumpa','Lahri',2003,32,291),
@@ -25,7 +30,14 @@ values(1,'The Namesake','Jhumpa','Lahri',2003,32,291),
 (15,'Oblivion: Stories','Foster','Wallace',2004,172,329),
 (16,'Consider the Lobster','Foster','Wallace',2005,92,143);
 
-
-
-![alt text](<MySQL 8.0 Command Line Client 23-09-2024 01_25_35.png>) 
 ![alt text](<MySQL 8.0 Command Line Client 23-09-2024 01_24_45.png>)
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+3. Write SQL query to fetch title, release_year, author_fname, author_lname from books table.
+
+=> select title,release_year,author_first_name, author_last_name from books ;
+
+![alt text](<MySQL 8.0 Command Line Client 23-09-2024 19_34_00.png>)
+
+---------------------------------------------------------------------------------------------------------------------------------------
