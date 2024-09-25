@@ -41,3 +41,21 @@ values(1,'The Namesake','Jhumpa','Lahri',2003,32,291),
 ![alt text](<MySQL 8.0 Command Line Client 23-09-2024 19_34_00.png>)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+
+4. Write the SQL queries to update the author_last_name whose write the book "Coraline".
+
+=> update books 
+   set author_last_name = 'Armstrong' 
+   where title = 'Coraline';
+
+![alt text](<MySQL 8.0 Command Line Client 25-09-2024 11_17_20.png>)
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+5. Write the SQL queries to fetch unique author_first_name and author_last_name.
+
+=> select distinct author_first_name,author_last_name from books;
+
+![alt text](<MySQL 8.0 Command Line Client 25-09-2024 11_31_22.png>)
+
+---------------------------------------------------------------------------------------------------------------------------------------
