@@ -59,3 +59,19 @@ values(1,'The Namesake','Jhumpa','Lahri',2003,32,291),
 ![alt text](<MySQL 8.0 Command Line Client 25-09-2024 11_31_22.png>)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+
+6. Delete books details where books pages are less than 200.
+
+=> delete from books where (pages < 200);
+
+![alt text](<MySQL 8.0 Command Line Client 26-09-2024 19_51_06.png>)
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+7. Write a query to fetch only those records from the books table whose pages is above 400.
+
+=> select * from books where (pages > 400);
+
+![alt text](<MySQL 8.0 Command Line Client 26-09-2024 19_56_30.png>)
+
+---------------------------------------------------------------------------------------------------------------------------------------
