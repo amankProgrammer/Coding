@@ -93,4 +93,18 @@ values(1,'The Namesake','Jhumpa','Lahri',2003,32,291),
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-10. 
+10. Write a sql queries to combine the author_first_name and author_last_name and print with title, release_year and stock_quantity.
+
+=> select concat(author_first_name,' ',author_last_name) as author_full_name,title,release_year,stock_quantity from books;
+
+![alt text](<MySQL 8.0 Command Line Client 29-09-2024 00_08_47.png>)
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+11. Write a sql queries to combine the author_first_name and author_last_name in caps and print with title, pages and stock_quantity.
+
+=> select upper(concat(author_first_name,' ',author_last_name)) as author_full_name,title,release_year,stock_quantity from books;
+
+![alt text](<MySQL 8.0 Command Line Client 29-09-2024 00_13_44.png>)
+
+---------------------------------------------------------------------------------------------------------------------------------------
