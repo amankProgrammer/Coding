@@ -75,3 +75,22 @@ values(1,'The Namesake','Jhumpa','Lahri',2003,32,291),
 ![alt text](<MySQL 8.0 Command Line Client 26-09-2024 19_56_30.png>)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+
+8. Write a sql query to Reverse and uppercase the following sentence: "Why does my cat look at me with such hatered"?
+
+=> select upper('Why does my cat look at me with such hatered') as upper_case;
+=> select reversed('Why does my cat look at me with such hatered') as reverse_sentence;
+
+![alt text](<MySQL 8.0 Command Line Client 28-09-2024 22_04_59.png>)
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+9. Write a sql query to print original author_last_name and reverse_last_name as the forward and backward names?
+
+=> select author_last_name, reverse(author_last_name) as backward from books;
+
+![alt text](<MySQL 8.0 Command Line Client 28-09-2024 22_24_12.png>)
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+10. 

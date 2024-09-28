@@ -1,4 +1,7 @@
- // printf("value of G : ");
-    // scanf("%d",&g);
-    // printf("value of B : ");
-    // scanf("%d",&b);
+while(count<=n){
+    //     if(num<10 || num == check_Armstrong(num,count_digit(num))){
+    //         printf(" %d",num);
+    //     }
+    //     num++;
+    //     count++;
+    // }
