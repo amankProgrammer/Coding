@@ -108,3 +108,21 @@ values(1,'The Namesake','Jhumpa','Lahri',2003,32,291),
 ![alt text](<MySQL 8.0 Command Line Client 29-09-2024 00_13_44.png>)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+
+12. Write a query to concat title and release year like that "title was release in release year" the value of title and release year fetch from the books table.
+
+=> select concat(title,' was release in ',release_year) as description from books;
+
+![alt text](<MySQL 8.0 Command Line Client 29-09-2024 12_22_41.png>)
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+13. Write a query to print book title and length of each title.
+
+=> select title,length(title) as titleLength from books;
+
+![alt text](<MySQL 8.0 Command Line Client 29-09-2024 12_29_41.png>)
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
