@@ -125,4 +125,18 @@ values(1,'The Namesake','Jhumpa','Lahri',2003,32,291),
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
+14. Write a sql query to fetch unique title and author_last_name in ascending order.
 
+=> select distinct title,author_last_name from books order by author_last_name;
+
+![alt text](<MySQL 8.0 Command Line Client 30-09-2024 21_56_34.png>)
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+15. Write a sql query to achieve following table?
+
+=> select substring(title,1,10) as short_title,concat(author_last_name,",",author_first_name) as author,concat(stock_quantity," in stock") as quantity from books;
+
+![alt text](<Select MySQL 8.0 Command Line Client 30-09-2024 22_11_43.png>)
+
+---------------------------------------------------------------------------------------------------------------------------------------
