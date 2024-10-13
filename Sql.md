@@ -140,3 +140,20 @@ values(1,'The Namesake','Jhumpa','Lahri',2003,32,291),
 ![alt text](<Select MySQL 8.0 Command Line Client 30-09-2024 22_11_43.png>)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+
+16. Find the longest book from the books table. 
+   (longest books means Highest number of pages)
+
+=> select * from books order by pages desc limit 1;
+
+![alt text](<MySQL 8.0 Command Line Client 13-10-2024 13_37_34.png>)
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+17. Print the summary containing title, year, for the 3 most recent books
+
+=> select concat(title, '-',release_year) as summary from books order by release_year desc limit 3;
+
+![alt text](<MySQL 8.0 Command Line Client 13-10-2024 13_49_33.png>)
+
+---------------------------------------------------------------------------------------------------------------------------------------
